@@ -19,11 +19,9 @@ function start(canvas) {
   map.set_Canvas_Properties(canvas, ctx, cellWidth, cellHeight);
   map.empty_Map();
   map.map[23][21] = 1;
-  map.map[23][22] = 2;
-  map.map[23][23] = 2;
-  map.map[22][21] = 2;
-  map.map[22][19] = 2;
   map.map[24][24] = 1;
+  map.map[15][24] = 4;
+  map.map[16][24] = 5;
   map.draw_Map();
   map.draw_Rect();
   return map;
